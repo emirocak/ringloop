@@ -1,126 +1,129 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>StepRush Privacy Policy</title>
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #080b12;
-      --panel: #111827;
-      --text: #f5f7fb;
-      --muted: #b8c0cf;
-      --line: #253044;
-      --accent: #ffd447;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.65;
-    }
-
-    main {
-      width: min(860px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 56px 0;
-    }
-
-    header {
-      padding: 28px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--panel);
-      margin-bottom: 24px;
-    }
-
-    h1 {
-      margin: 0 0 8px;
-      font-size: 34px;
-      letter-spacing: 0;
-    }
-
-    h2 {
-      margin: 32px 0 10px;
-      font-size: 20px;
-      letter-spacing: 0;
-    }
-
-    p, li {
-      color: var(--muted);
-      font-size: 16px;
-    }
-
-    a {
-      color: var(--accent);
-    }
-
-    section {
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 18px;
-    }
-
-    .updated {
-      margin: 0;
-      color: var(--accent);
-      font-weight: 700;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ring Loop - iOS Arcade Oyunu</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(180deg, #0F172A 0%, #020617 100%);
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 600px;
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 24px;
+    padding: 60px 40px;
+  }
+  .logo-circle {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 24px;
+    border-radius: 50%;
+    border: 8px solid;
+    border-image: linear-gradient(135deg, #16A34A, #DC2626) 1;
+    position: relative;
+  }
+  .logo-circle:after {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 24px;
+    height: 24px;
+    background: #DC2626;
+    border-radius: 4px;
+  }
+  h1 {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    background: linear-gradient(90deg, #F87171, #FACC15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 12px;
+  }
+  .tagline {
+    color: rgba(255,255,255,0.6);
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  .description {
+    color: rgba(255,255,255,0.75);
+    font-size: 14px;
+    margin-bottom: 32px;
+    line-height: 1.7;
+  }
+  .links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .link {
+    display: inline-block;
+    background: rgba(255,255,255,0.08);
+    color: #FACC15;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: all 0.2s;
+  }
+  .link:hover {
+    background: rgba(255,255,255,0.12);
+    transform: translateY(-2px);
+  }
+  .contact {
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+  }
+  .email {
+    color: #FACC15;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .footer {
+    margin-top: 40px;
+    color: rgba(255,255,255,0.3);
+    font-size: 11px;
+  }
+</style>
 </head>
 <body>
-  <main>
-    <header>
-      <h1>StepRush Privacy Policy</h1>
-      <p class="updated">Last updated: May 7, 2026</p>
-    </header>
+<div class="container">
+  <div class="logo-circle"></div>
+  <h1>RING LOOP</h1>
+  <p class="tagline">Engelleri zıpla · Çemberi boya</p>
 
-    <section>
-      <h2>Overview</h2>
-      <p>StepRush is an arcade mobile game developed by Devora Oyun. This Privacy Policy explains what information may be stored or processed when you use the app.</p>
-    </section>
+  <p class="description">
+    Hızlı tempolu, minimalist iOS arcade oyunu. Karakterin halka etrafında döner; engellerin üzerinden zıplayarak halkayı boya ve seviyeleri tamamla.
+  </p>
 
-    <section>
-      <h2>Data Stored on Your Device</h2>
-      <p>The app may store gameplay information locally on your device, such as high score, coins, unlocked characters, unlocked backgrounds, selected customization options, and settings. This information is used to provide the game experience and is not used to identify you personally by Devora Oyun.</p>
-    </section>
+  <div class="links">
+    <a href="privacy.html" class="link">📋 Gizlilik Politikası</a>
+    <a href="terms.html" class="link">📄 Kullanım Koşulları</a>
+  </div>
 
-    <section>
-      <h2>Advertising</h2>
-      <p>StepRush uses Google AdMob to show banner, interstitial, and rewarded ads. Google and its partners may process data such as device identifiers, advertising identifiers, IP address, app interaction data, diagnostics, and ad performance data to provide and measure ads.</p>
-      <p>You can learn more about how Google uses data here: <a href="https://policies.google.com/technologies/ads">Google Advertising Policy</a>.</p>
-    </section>
+  <p class="contact">
+    İletişim: <a href="mailto:emirrocak@gmail.com" class="email">emirrocak@gmail.com</a>
+  </p>
 
-    <section>
-      <h2>In-App Purchases</h2>
-      <p>StepRush currently uses in-game coins and rewards for customization. If paid purchases are added in the future, transactions will be handled through Apple's App Store systems.</p>
-    </section>
-
-    <section>
-      <h2>Children's Privacy</h2>
-      <p>StepRush does not knowingly collect personal information from children. Advertising may be served by Google AdMob according to the settings and policies configured for the app.</p>
-    </section>
-
-    <section>
-      <h2>Permissions</h2>
-      <p>StepRush does not require access to your contacts, photos, camera, microphone, or precise location for gameplay.</p>
-    </section>
-
-    <section>
-      <h2>Changes to This Policy</h2>
-      <p>This Privacy Policy may be updated when the app changes, such as when new features, ad settings, or services are added. The latest version will be available on this page.</p>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>If you have questions about this Privacy Policy, please contact the developer through the contact information shown on the App Store listing for StepRush.</p>
-    </section>
-  </main>
+  <p class="footer">© 2026 Emir Ocak. Tüm hakları saklıdır.</p>
+</div>
 </body>
 </html>
